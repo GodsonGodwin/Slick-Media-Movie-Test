@@ -3,6 +3,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 import Navbar from './component/Navbar'
 import Hero from './component/Hero'
+import Movies from './component/Movies'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <ChakraProvider>
       <Navbar />
       <Hero/>
-     
+      <Movies/>
     </ChakraProvider>
   )
 }
