@@ -1,16 +1,15 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import Hero from "./Components/Hero";
-import MovieContainer from "./Components/MovieContainer";
 
-import Navbar from "./Components/Navbar";
+
+import Navbar from './component/Navbar'
 
 function App() {
   return (
-   <div>
-    Hello React
-   </div>
-
-  );
+    <ChakraProvider>
+      <Navbar />
+     
+    </ChakraProvider>
+  )
 }
 
-export default App;
+export default App
